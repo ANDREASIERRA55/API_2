@@ -16,19 +16,26 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.container {
+  width: 100%;
+  max-width: 500px;
+}
 
 .user-form {
   width: 100%;
   max-width: 700px;
+  display: flex;
+  flex-direction: row;
 }
 
 .user-form input {
+  /* flex: 1; */
   width: 100%;
   display: block;
-  background-color: #4c2885;
+  background-color: white;
   border: none;
   border-radius: 10px;
-  color: #fff;
+  color: grey;
   padding: 1rem;
   margin-bottom: 2rem;
   font-family: inherit;
@@ -43,6 +50,10 @@ body {
 
 .user-form input:focus {
   outline: none;
+}
+
+#main {
+  margin-top: 2rem;
 }
 
 .card {
@@ -88,6 +99,10 @@ body {
 .user-info ul li strong {
   font-size: 0.9rem;
   margin-left: 0.5rem;
+}
+
+a {
+  background-color: aquamarine;
 }
 
 .repo {
